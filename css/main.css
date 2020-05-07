@@ -6,6 +6,18 @@ html {
     height: 100%;
 }
 
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    gap: 10px;
+}
+
 #btn_subscribe {
     color: #FFF;
     background-color: #13AA52;
@@ -54,14 +66,10 @@ html {
     margin: 2.5rem 5rem;
 }
 
-body {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    gap: 10px;
+.linkedin {
+    padding: 0rem 1rem;
+}
+
+a {
+    color: white;
 }
