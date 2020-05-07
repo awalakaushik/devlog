@@ -1,0 +1,14 @@
+.blog-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0.75rem 5rem;
+    background-color: #1D2931;
+    color: #FFF;
+}
+
+.blog-header>h1 {
+    color: #24AE5B;
+}

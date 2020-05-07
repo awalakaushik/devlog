@@ -3,3 +3,18 @@
 @import './footer.css';
 @import '../images/avatar.css';
 @import '../images/thumbnails.css';
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "blog-header"
+    "blog-content"
+    "blog-footer";
+    background-color: #273742;
+}
