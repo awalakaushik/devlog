@@ -16,7 +16,7 @@ html {
     display: flex;
     background-color: #1D2931;
     height: 6rem;
-    padding: 0.75rem;
+    padding: 0.75rem 5rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ html {
     flex-shrink: 0;
     background-color: #1D2930;
     color: #FFF;
-    padding: 0.75rem;
+    padding: 0.75rem 5rem;
 }
 
 .page-footer span a {
@@ -51,7 +51,7 @@ html {
 }
 
 .blogs {
-    margin: 1.5rem;
+    margin: 5rem;
 }
 
 body {
