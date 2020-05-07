@@ -2,7 +2,11 @@
 @import './images/thumbnails.css';
 @import './blog-card.css';
 
-.btn {
+html {
+    height: 100%;
+}
+
+#btn_subscribe {
     color: #FFF;
     background-color: #13AA52;
     height: 3rem;
@@ -10,15 +14,54 @@
 
 .page-header {
     display: flex;
-    background-color: #1D2930;
+    background-color: #1D2931;
     height: 6rem;
     padding: 0.75rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    grid-area: header;
+}
+
+.page-footer {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: footer;
+    flex-shrink: 0;
+    background-color: #1D2930;
+    color: #FFF;
+    padding: 0.75rem;
+}
+
+.page-footer span a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
 }
 
 .blog-title {
     color: #FFF;
     font-size: 3rem;
+}
+
+.blog-card {
+    grid-area: main;
+}
+
+.blogs {
+    margin: 1.5rem;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    gap: 10px;
 }
