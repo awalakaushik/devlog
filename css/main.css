@@ -2,8 +2,23 @@
 @import './images/thumbnails.css';
 @import './blog-card.css';
 
+.btn {
+    color: #FFF;
+    background-color: #13AA52;
+    height: 3rem;
+}
+
 .page-header {
+    display: flex;
     background-color: #1D2930;
     height: 6rem;
     padding: 0.75rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-title {
+    color: #FFF;
+    font-size: 3rem;
 }
