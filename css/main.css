@@ -1,2 +1,3 @@
-@import './avatar.css';
-@import './images.css';
+@import './images/avatar.css';
+@import './images/thumbnails.css';
+@import './blog-card.css';
