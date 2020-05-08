@@ -12,7 +12,6 @@
 }
 
 .author-info {
-    margin: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -20,6 +19,7 @@
     width: 50%;
     border-radius: 2%;
     border: 1px solid #24AE5B;
+    margin-bottom: 0.5rem;
 }
 
 .author-info img {
@@ -41,4 +41,13 @@
     .blog-content {
         padding: 2.5rem;
     }
+
+    .author-info {
+        padding-top: 0.5rem;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 0.5rem;
+    }
+
 }
