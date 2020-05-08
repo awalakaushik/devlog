@@ -17,6 +17,12 @@ body {
     gap: 10px;
 }
 
+@media screen and (max-width: 768px) { 
+    #btn_subscribe {
+        display: none;
+    }
+}
+
 #btn_subscribe {
     color: #FFF;
     background-color: #13AA52;
