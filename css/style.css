@@ -46,7 +46,7 @@ body {
     padding: 0.75rem 5rem;
 }
 
-.page-footer span a {
+.page-footer > span > a {
     text-decoration: none;
     color: #FFF;
     font-weight: bold;

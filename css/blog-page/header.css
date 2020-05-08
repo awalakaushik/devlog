@@ -9,6 +9,7 @@
     color: #FFF;
 }
 
-.blog-header>h1 {
+.blog-header > h1 {
     color: #24AE5B;
+    letter-spacing: 1.4px;
 }
