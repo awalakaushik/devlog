@@ -27,7 +27,7 @@ body {
     display: flex;
     background-color: #1D2931;
     height: 6rem;
-    padding: 0.75rem 5rem;
+    padding: 0.75rem 2.5rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     flex-shrink: 0;
     background-color: #1D2930;
     color: #FFF;
-    padding: 0.75rem 5rem;
+    padding: 0.75rem 2.5rem;
 }
 
 .page-footer > span > a {
@@ -62,7 +62,7 @@ body {
 }
 
 .blogs {
-    margin: 2.5rem 5rem;
+    margin: 2.5rem 2.5rem;
 }
 
 .linkedin {
