@@ -13,3 +13,18 @@
     color: #24AE5B;
     letter-spacing: 1.4px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .blog-header {
+        padding: 0.75rem 2.5rem;
+    }
+
+    .blog-header > h1 {
+        font-size: medium;
+    }
+
+    .blog-header > h3 {
+        font-size: small;
+    }
+}

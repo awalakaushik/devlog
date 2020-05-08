@@ -10,3 +10,10 @@
     margin-bottom: 2rem;
     text-align: justify;
 }
+
+
+@media screen and (max-width: 768px) {
+    .blog-content {
+        padding: 2.5rem;
+    }
+}
