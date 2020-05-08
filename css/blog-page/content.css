@@ -4,13 +4,38 @@
     padding: 5rem;
 }
 
-.blog-content > p {
+.blog-content .description > p {
     font-size: 16px;
     line-height: 2rem;
     margin-bottom: 2rem;
     text-align: justify;
 }
 
+.author-info {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    border-radius: 2%;
+    border: 1px solid #24AE5B;
+}
+
+.author-info img {
+    border-radius: 50%;
+    height: 92px;
+    width: 92px;
+}
+
+.author-info > div {
+    font-weight: lighter;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
 
 @media screen and (max-width: 768px) {
     .blog-content {
